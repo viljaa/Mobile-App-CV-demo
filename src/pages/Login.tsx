@@ -8,8 +8,10 @@ const Login: React.FC = () =>{
     const [password, setPassword] = useState('');
     const [redirect, setRedirect] = useState(false);
 
-    // Function for validating login. In a real application function would connect to a database
+    // Function for validating login
     function validateUser(username: string, password: string){
+        // Normally the application would connect to a database, for demo purposes
+        // we're gonna go with simple variables that represent the login credentials.
         const correctUsername: string = 'user'
         const correctPassword: string = 'user'
 
