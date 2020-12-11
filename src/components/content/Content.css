@@ -1,0 +1,30 @@
+ion-row.title{
+    text-align: center;
+}
+
+.bio-picture{
+    border-radius: 2%;
+    margin: 0 2rem 0 2rem;
+    overflow: hidden;
+}
+.bio-title{
+    margin-top: 0.8rem;
+}
+.bio-text{
+    margin: 0 1.2rem 0 1.2rem; 
+}
+
+.contact-text{
+    margin: 1rem 0 1rem 0;
+}
+.contact-icon{
+    margin-right: 1rem;
+}
+
+.tech-skills-container{
+    margin-top: 1rem;
+}
+
+.soft-skills-container{
+    margin-top: 1rem;
+}
